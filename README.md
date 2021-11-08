@@ -3,6 +3,13 @@ This repo contains a very simple implementation of an agent playing LunarLander 
 
 https://user-images.githubusercontent.com/10044095/124774963-82c75500-df3e-11eb-94d5-9a1ebc8af6d4.mp4 
 
+## Tensorboard
+To inspect in-real-time logs, run the code below in the project directory to start tensorboard:
+```
+tensorboard --logdir "log/"
+```
+then, connect to its interface which, by default, should be *https://localhost:6006*
+
 # Dependencies
 * Python(3.8.8)
 * Numpy(1.19.3)
